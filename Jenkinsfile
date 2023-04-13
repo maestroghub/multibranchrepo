@@ -8,7 +8,7 @@ pipeline{
         }
         stage('2-system update'){
             steps{
-                sh 'sudo apt update -y'
+                sh 'cat /etc/os-release'
             }
         }
         stage('parallel-job1'){
