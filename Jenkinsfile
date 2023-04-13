@@ -34,6 +34,7 @@ pipeline{
             steps{
                 sh 'uptime'
                 sh 'date'
+                sh 'pwd'
             }
         }
     }
